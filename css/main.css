@@ -67,9 +67,8 @@ ul li a:active {
 
 
 /*--------------------CTA--------------------*/
-h1, h2, h3, h4, h, h6 {
+h1, h2, h3, h4, h5, h6 {
 	font-size: 36px;
-	text-shadow: 4px 4px 4px #999;
 }
 
 article {
@@ -99,32 +98,26 @@ article p {
 .gallery h2 {
 	clear: both;
 	margin: 10px;
-	text-shadow: 4px 4px 4px #999;
+	text-shadow: 2px 2px 2px #999;
 }
 
 .gallery ul {
+	list-style-type: none;
+	width: 360px;
 	margin: 10px 0 25px 0;
 	padding: 0 0 0 20px;
-	list-style-type: none;
+	overflow: hidden;
 }
 
 .gallery ul li {
-	margin: 0 10px 25px 0;
 	float: left;
-}
-
-.gallery ul li a:hover {
-	height: 68px;
-	color: #48a855;
-	border: 1px dashed #48a855;
-	border-top-left-radius: 10px;
-	border-bottom-right-radius: 10px;
 }
 
 /*--------------------Lore--------------------*/
 aside h2 {
 	clear: both;
 	margin: 0 0 0 10px;
+	text-shadow: 2px 2px 2px #999;
 }
 
 aside p {
@@ -145,6 +138,7 @@ aside p {
 /*--------------------Role--------------------*/
 .role h2 {
 	margin: 0 0 0 10px;
+	text-shadow: 2px 2px 2px #999;
 }
 
 .role p {
