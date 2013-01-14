@@ -1,7 +1,162 @@
 /*--------------------Navigation--------------------*/
 body {
-	font: 18px/1.5 'Galdeano', Arial, Helvetica, sans-serif;
+	font: 20px/1.5 'Galdeano', Arial, Helvetica, sans-serif;
 	width: 960px;
 	margin: 0 auto;
 	padding-bottom: 0 auto;
+}
+
+header {
+	width: 960px;
+	height: 65px;
+	margin: 0 auto;
+	background: rgba(94, 38, 18, 1);
+}
+
+h1 {
+	text-indent: -99000px;
+	width: 0;
+	height: 0;
+	margin: 0;
+}
+
+.logo {
+	float: left;
+	margin: 10px;
+	opacity: 1.0;
+}
+
+ul {
+	width: 300px;
+	margin: 0 10px 0 670px;
+	list-style-type: none;
+	padding: 0;
+}
+
+ul li {
+	width: 90px;
+	margin: 10px 0 0 0;
+	float: left;
+}
+
+ul li a {
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #000;
+	border: 1px solid #000;
+}
+
+ul li a:visited {
+	color: #000;
+	border: 1px solid #000;
+}
+
+ul li a:hover {
+	color: #000;
+	background: #000;
+	border: 1px solid #000;
+}
+
+ul li a:active {
+	color: #000;
+	border: 1px solid #000;
+}
+
+
+/*--------------------CTA--------------------*/
+h1, h2, h3, h4, h, h6 {
+	font-size: 36px;
+	text-shadow: 4px 4px 4px #999;
+}
+
+article {
+	clear: both;
+	width: 960px;
+	color: #fff;
+	background: rgba(95, 75, 15, .75) url(../images/paper1.png) no-repeat;
+	overflow: hidden;
+}
+
+article img {
+	float: left;
+	margin: 10px;
+	border: #fff;
+}
+
+article h2 {
+	margin: 20px;
+}
+
+article p {
+	line-height: 1.6;
+	margin: 20px;
+}
+
+/*--------------------Gallery--------------------*/
+.gallery h2 {
+	clear: both;
+	margin: 10px;
+	text-shadow: 4px 4px 4px #999;
+}
+
+.gallery ul {
+	margin: 10px 0 25px 0;
+	padding: 0 0 0 20px;
+	list-style-type: none;
+}
+
+.gallery ul li {
+	margin: 0 10px 25px 0;
+	float: left;
+}
+
+.gallery ul li a:hover {
+	height: 68px;
+	color: #48a855;
+	border: 1px dashed #48a855;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+/*--------------------Lore--------------------*/
+aside h2 {
+	clear: both;
+	margin: 0 0 0 10px;
+}
+
+aside p {
+	margin: 0 20px;
+	-ms-column-count: 3;
+	-ms-column-gap: 35px;
+	-moz-column-count: 3;
+	-moz-column-gap: 35px;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 35px;
+	-o-column-count: 3;
+	-o-column-gap: 35px;
+	column-count: 3;
+	column-gap: 35px;
+
+}
+
+/*--------------------Role--------------------*/
+.role h2 {
+	margin: 0 0 0 10px;
+}
+
+.role p {
+	margin: 0 0 25px 20px;
+}
+
+/*--------------------Footer--------------------*/
+footer {
+	background: rgba(95, 75, 15, .75) url(../images/paper1.png) no-repeat;
+	overflow: hidden;
+}
+
+footer p {
+	margin: 20px;
 }
