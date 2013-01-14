@@ -95,8 +95,13 @@ article p {
 }
 
 /*--------------------Gallery--------------------*/
-.gallery h2 {
+section {
 	clear: both;
+	background: #fff8dc;
+	overflow: hidden;
+}
+
+.gallery h2 {
 	margin: 10px;
 	text-shadow: 2px 2px 2px #999;
 }
@@ -147,7 +152,7 @@ aside p {
 
 /*--------------------Footer--------------------*/
 footer {
-	background: rgba(95, 75, 15, .75) url(../images/paper1.png) no-repeat;
+	background: rgba(100, 35, 15, 1);
 	overflow: hidden;
 }
 
