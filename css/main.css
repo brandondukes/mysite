@@ -73,10 +73,11 @@ h1, h2, h3, h4, h5, h6 {
 
 article {
 	clear: both;
-	width: 950px;
+	width: 960px;
 	color: #fff;
 	background: rgba(95, 75, 15, .75) url(../images/paper1.png) no-repeat;
-	border: 5px groove rgba(95, 75, 15, .75);
+	border-top: 5px groove rgba(95, 75, 15, .75);
+	border-bottom: 5px groove rgba(95, 75, 15, .75);
 	overflow: hidden;
 }
 
@@ -154,6 +155,7 @@ aside p {
 /*--------------------Footer--------------------*/
 footer {
 	background: rgba(100, 35, 15, 1);
+	border-top: 5px ridge rgba(95, 75, 15, .75);
 	overflow: hidden;
 }
 
