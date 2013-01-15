@@ -97,7 +97,8 @@ article p {
 /*--------------------Gallery--------------------*/
 section {
 	clear: both;
-	background: #fff8dc url(../images/paper1.png) no-repeat;
+	border-top: 2px groove rgba(95, 75, 15, .75);
+	background: #fff8dc;
 	overflow: hidden;
 }
 
