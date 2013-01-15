@@ -88,11 +88,13 @@ article img {
 }
 
 article h2 {
+	text-shadow: 2px 2px 2px #333;
 	margin: 20px;
 }
 
 article p {
 	line-height: 1.8;
+	text-shadow: 2px 2px 2px #333;
 	margin: 20px;
 }
 
