@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 
 article {
 	clear: both;
-	width: 960px;
+	width: 950px;
 	color: #fff;
 	background: rgba(95, 75, 15, .75) url(../images/paper1.png) no-repeat;
 	border: 5px groove rgba(95, 75, 15, .75);
