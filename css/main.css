@@ -76,6 +76,7 @@ article {
 	width: 960px;
 	color: #fff;
 	background: rgba(95, 75, 15, .75) url(../images/paper1.png) no-repeat;
+	border: 5px groove rgba(95, 75, 15, .75);
 	overflow: hidden;
 }
 
@@ -97,7 +98,6 @@ article p {
 /*--------------------Gallery--------------------*/
 section {
 	clear: both;
-	border-top: 5px groove rgba(95, 75, 15, .75);
 	background: #fff8dc;
 	overflow: hidden;
 }
