@@ -97,7 +97,7 @@ article p {
 /*--------------------Gallery--------------------*/
 section {
 	clear: both;
-	border-top: 2px groove rgba(95, 75, 15, .75);
+	border-top: 5px groove rgba(95, 75, 15, .75);
 	background: #fff8dc;
 	overflow: hidden;
 }
