@@ -1,3 +1,4 @@
+/*--------------------Fonts--------------------*/
 body {
 	font: 14px/1.5 Arial, Helvetica, sans-serif;
 	width: 960px;
@@ -9,6 +10,11 @@ body p {
 	font: 20px/1.5 'Galdeano', Arial, Helvetica, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font: 36px/1.5 'Galdeano', Arial, Helvetica, sans-serif;
+}
+
+/*--------------------Branding--------------------*/
 header {
 	width: 960px;
 	height: 65px;
@@ -84,10 +90,6 @@ header ul li a:active {
 
 
 /*--------------------CTA--------------------*/
-h1, h2, h3, h4, h5, h6 {
-	font: 36px/1.5 'Galdeano', Arial, Helvetica, sans-serif;
-}
-
 article {
 	clear: both;
 	width: 960px;
