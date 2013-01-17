@@ -53,6 +53,8 @@ header ul li a {
 	border-right: 2px ridge #c0974e;
 	border-bottom: 2px ridge #c0974e;
 	border-left: 2px ridge #c0974e;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
 }
 
 header ul li a:visited {
