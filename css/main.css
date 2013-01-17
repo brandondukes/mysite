@@ -1,9 +1,13 @@
 /*--------------------Navigation--------------------*/
 body {
-	font: 20px/1.5 'Galdeano', Arial, Helvetica, sans-serif;
+	font: 14px/1.5 Arial, Helvetica, sans-serif;
 	width: 960px;
 	margin: 0 auto;
 	padding-bottom: 0 auto;
+}
+
+body p {
+	font: 20px/1.5 'Galdeano', Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -26,49 +30,57 @@ h1 {
 	opacity: 1.0;
 }
 
-ul {
-	width: 300px;
-	margin: 0 10px 0 670px;
-	list-style-type: none;
+header ul {
+	width: 330px;
+	margin: 0 0 0 630px;
 	padding: 0;
+	list-style-type: none;
 }
 
-ul li {
+header ul li {
 	width: 90px;
-	margin: 10px 0 0 0;
+	margin: 0 20px 0 0;
 	float: left;
 }
 
-ul li a {
+header ul li a {
 	text-decoration: none;
 	display: block;
-	height: 40px;
-	line-height: 40px;
+	height: 30px;
+	line-height: 30px;
 	text-align: center;
-	color: #000;
-	border: 1px solid #000;
+	color: #c0974e;
+	border-right: 2px ridge #c0974e;
+	border-bottom: 2px ridge #c0974e;
+	border-left: 2px ridge #c0974e;
 }
 
-ul li a:visited {
-	color: #000;
-	border: 1px solid #000;
+header ul li a:visited {
+	color: #7f614c;
+	border-right: 1px solid #7f614c;
+	border-bottom: 1px solid #7f614c;
+	border-left: 1px solid #7f614c;
 }
 
-ul li a:hover {
-	color: #000;
-	background: #000;
-	border: 1px solid #000;
+header ul li a:hover {
+	color: #fc1;
+	background: rgba(255, 205, 15, .25);
+	border-right: 2px ridge #fc1;
+	border-bottom: 2px ridge #fc1;
+	border-left: 2px ridge #fc1;
 }
 
-ul li a:active {
-	color: #000;
-	border: 1px solid #000;
+header ul li a:active {
+	color: #fff;
+	border-right: 2px ridge #fff;
+	border-bottom: 2px ridge #fff;
+	border-left: 2px ridge #fff;
 }
 
 
 /*--------------------CTA--------------------*/
 h1, h2, h3, h4, h5, h6 {
-	font-size: 36px;
+	font: 36px/1.5 'Galdeano', Arial, Helvetica, sans-serif;
 }
 
 article {
@@ -76,8 +88,8 @@ article {
 	width: 960px;
 	color: #fff;
 	background: rgba(95, 75, 15, .75) url(../images/paper1.png) no-repeat;
-	border-top: 5px groove rgba(95, 75, 15, .75);
-	border-bottom: 5px ridge rgba(95, 75, 15, .75);
+	border-top: 3px ridge #c0974e;
+	border-bottom: 3px ridge #c0974e;
 	overflow: hidden;
 }
 
@@ -89,13 +101,13 @@ article img {
 
 article h2 {
 	text-shadow: 2px 2px 2px #333;
-	margin: 20px;
+	margin: 10px;
 }
 
 article p {
 	line-height: 1.8;
 	text-shadow: 2px 2px 2px #333;
-	margin: 20px;
+	margin: 10px;
 }
 
 /*--------------------Gallery--------------------*/
@@ -111,15 +123,34 @@ section {
 }
 
 .gallery ul {
+	clear: both;
 	list-style-type: none;
-	width: 360px;
-	margin: 10px 0 25px 0;
-	padding: 0 0 0 20px;
-	overflow: hidden;
+	width: 500px;
+	margin: 10px 0 25px 20px;
+	padding: 0;
+	line-height: 0;
 }
 
 .gallery ul li {
 	float: left;
+	margin: 0 25px 25px 0;
+	padding: 0;
+}
+
+.gallery ul li a {
+	display: block;
+	border: 3px groove #fc0;
+}
+
+/*--------------------Role--------------------*/
+.role h2 {
+	clear: both;
+	margin: 10px;
+	text-shadow: 2px 2px 2px #999;
+}
+
+.role p {
+	margin: 0 0 25px 20px;
 }
 
 /*--------------------Lore--------------------*/
@@ -130,7 +161,7 @@ aside h2 {
 }
 
 aside p {
-	margin: 0 20px;
+	margin: 0 20px 25px 20px;
 	-ms-column-count: 3;
 	-ms-column-gap: 35px;
 	-moz-column-count: 3;
@@ -144,20 +175,10 @@ aside p {
 
 }
 
-/*--------------------Role--------------------*/
-.role h2 {
-	margin: 0 0 0 10px;
-	text-shadow: 2px 2px 2px #999;
-}
-
-.role p {
-	margin: 0 0 25px 20px;
-}
-
 /*--------------------Footer--------------------*/
 footer {
 	background: rgba(100, 35, 15, 1);
-	border-top: 2px solid #000;
+	border-top: 3px ridge #c0974e;
 	overflow: hidden;
 }
 
