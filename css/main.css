@@ -1,4 +1,3 @@
-/*--------------------Navigation--------------------*/
 body {
 	font: 14px/1.5 Arial, Helvetica, sans-serif;
 	width: 960px;
@@ -30,6 +29,7 @@ h1 {
 	opacity: 1.0;
 }
 
+/*--------------------Navigation--------------------*/
 header ul {
 	width: 330px;
 	margin: 0 0 0 630px;
@@ -63,6 +63,9 @@ header ul li a:visited {
 }
 
 header ul li a:hover {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
 	color: #fc1;
 	background: rgba(255, 205, 15, .25);
 	border-right: 2px ridge #fc1;
