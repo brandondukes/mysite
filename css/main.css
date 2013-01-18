@@ -14,6 +14,14 @@ h1, h2, h3, h4, h5, h6 {
 	font: 36px/1.5 'Galdeano', Arial, Helvetica, sans-serif;
 }
 
+a:visited {
+	color: #7f614c;
+}
+
+a:hover {
+	color: #fff;
+}
+
 /*--------------------Branding--------------------*/
 header {
 	width: 960px;
@@ -115,6 +123,39 @@ article p {
 	line-height: 1.8;
 	text-shadow: 2px 2px 2px #333;
 	margin: 10px;
+}
+
+#learn {
+	margin: 25px 0 25px 400px;
+	font: 28px/1.5 Arial, Helvetica, sans-serif;
+
+}
+
+article .button {
+	text-decoration: none;
+	margin: 20px;
+	padding: 20px 120px;
+	border-radius: 20px;
+	color: #fff;
+	border: 2px groove #c0974e;
+	background: #c0974e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c0974e), to(#594625));
+	background: -moz-linear-gradient(top,  #c0974e,  #594625);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+}
+
+article .button:hover {
+	background: #594625;
+	background: -webkit-gradient(linear, left top, left bottom, from(#8c6e3a), to(#594625));
+	background: -moz-linear-gradient(top,  #8c6e3a,  #594625);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#000000');
+}
+
+article .button:active {
+	color: #bfbfbf;
+	background: -webkit-gradient(linear, left top, left bottom, from(#594625), to(#c0974e));
+	background: -moz-linear-gradient(top,  #594625,  #c0974e);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#666666');
 }
 
 /*--------------------Gallery--------------------*/
