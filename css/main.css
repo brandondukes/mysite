@@ -108,8 +108,9 @@ article {
 
 article img {
 	float: left;
+	width: 52.08333%; /* 500px (native) */
+	max-width: 100%;
 	margin: 1.0416667%; /* 10px */
-	border: #fff;
 }
 
 article h2 {
