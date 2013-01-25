@@ -38,21 +38,20 @@ h1 {
 
 .logo {
 	float: left;
-	margin: 10px;
-	opacity: 1.0;
+	margin: 1.0416667%; /* 10px */
 }
 
 /*--------------------Navigation--------------------*/
 header ul {
 	width: 34.375%; /* 330px */
-	margin: 0 0 0 630px;
+	margin: 0 0 0 65.625%; /* 630px */
 	padding: 0;
 	list-style-type: none;
 }
 
 header ul li {
-	width: 90px;
-	margin: 0 20px 0 0;
+	width: 27.272727%; /* 90px */
+	margin: 0 6.0606061% 0 0; /* 0 20px 0 0 */
 	float: left;
 }
 
@@ -109,31 +108,31 @@ article {
 
 article img {
 	float: left;
-	margin: 10px;
+	margin: 1.0416667%; /* 10px */
 	border: #fff;
 }
 
 article h2 {
 	text-shadow: 2px 2px 2px #333;
-	margin: 10px;
+	margin: 1.0416667%; /* 10px */
 }
 
 article p {
 	line-height: 1.8;
 	text-shadow: 2px 2px 2px #333;
-	margin: 10px 20px 10px 10px;
+	margin: 10px 2.0833333% 10px 1.0416667%; /* 10px 20px 10px 10px */
 }
 
 #learn {
-	margin: 25px 0 25px 400px;
+	margin: 25px 0 25px 41.666667%; /* 25px 0 25px 400px */
 	font: 1.750em/1.5 Arial, Helvetica, sans-serif;
 
 }
 
 article .button {
 	text-decoration: none;
-	margin: 20px;
-	padding: 20px 120px;
+	margin: 2.0833333%; /* 20px */
+	padding: 3.6333333% 21.4333332%; /* 20px 120px; */
 	border-radius: 20px;
 	color: #fff;
 	border: 2px groove #c0974e;
@@ -165,7 +164,7 @@ section {
 }
 
 .gallery h2 {
-	margin: 10px;
+	margin: 1.0416667%; /* 10px */
 	text-shadow: 2px 2px 2px #999;
 }
 
@@ -173,14 +172,14 @@ section {
 	clear: both;
 	list-style-type: none;
 	width: 52.083333%; /* 500px */
-	margin: 10px 0 25px 20px;
+	margin: 10px 0 25px 2.0833333%; /* 10px 0 25px 20px */
 	padding: 0;
 	line-height: 0;
 }
 
 .gallery ul li {
 	float: left;
-	margin: 0 25px 25px 0;
+	margin: 0 5% 25px 0; /* 0 25px 25px 0 of 500px */
 	padding: 0;
 }
 
@@ -192,23 +191,23 @@ section {
 /*--------------------Role--------------------*/
 .role h2 {
 	clear: both;
-	margin: 10px;
+	margin: 1.0416667%; /* 10px */
 	text-shadow: 2px 2px 2px #999;
 }
 
 .role p {
-	margin: 0 20px 25px 20px;
+	margin: 0 2.0833333% 25px 2.0833333%; /* 0 20px 25px 20px */
 }
 
 /*--------------------Lore--------------------*/
 aside h2 {
 	clear: both;
-	margin: 0 0 0 10px;
+	margin: 0 0 0 1.0416667%; /* 0 0 0 10px */
 	text-shadow: 2px 2px 2px #999;
 }
 
 aside p {
-	margin: 0 20px 25px 20px;
+	margin: 0 2.0833333% 25px 2.0833333%; /* 0 20px 25px 20px */
 	-ms-column-count: 3;
 	-ms-column-gap: 35px;
 	-moz-column-count: 3;
@@ -230,5 +229,5 @@ footer {
 }
 
 footer p {
-	margin: 20px;
+	margin: 2.0833333%; /* 20px */
 }
