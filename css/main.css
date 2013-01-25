@@ -282,6 +282,10 @@ footer p {
 			display: none;
 		}
 		
+		article {
+			background: rgba(95, 75, 15, .75);
+		}
+		
 		article img {
 			display: none;
 		}
