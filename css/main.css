@@ -18,7 +18,7 @@ a:visited {
 }
 
 a:hover {
-	color: #666;
+	color: #fff;
 }
 
 /*--------------------Branding--------------------*/
@@ -39,6 +39,7 @@ h1 {
 .logo {
 	float: left;
 	margin: 1.0416667%; /* 10px */
+	max-width: 100%;
 }
 
 /*--------------------Navigation--------------------*/
@@ -57,10 +58,10 @@ header ul li {
 
 header ul li a {
 	text-decoration: none;
+	text-align: center;
 	display: block;
 	height: 30px;
 	line-height: 30px;
-	text-align: center;
 	color: #c0974e;
 	border-right: 2px ridge #c0974e;
 	border-bottom: 2px ridge #c0974e;
@@ -125,9 +126,8 @@ article p {
 }
 
 #learn {
-	margin: 25px 0 25px 41.666667%; /* 25px 0 25px 400px */
+	margin: 25px 0 25px 41.666667%; /* 25px 20px 25px 400px */
 	font: 1.750em/1.5 Arial, Helvetica, sans-serif;
-
 }
 
 article .button {
@@ -202,7 +202,6 @@ section {
 
 /*--------------------Lore--------------------*/
 aside h2 {
-	clear: both;
 	margin: 0 0 0 1.0416667%; /* 0 0 0 10px */
 	text-shadow: 2px 2px 2px #999;
 }
@@ -232,3 +231,59 @@ footer {
 footer p {
 	margin: 2.0833333%; /* 20px */
 }
+
+/*--------------------Media Queries--------------------*/
+
+	/* Tablet Portrait to Standard 960 (devices and browsers) */
+	@media screen and (min-width: 768px) and (max-width: 959px) {
+		#learn {
+			float: none;
+			margin: 0 auto;
+		}
+		
+		body {
+		color: purple;
+		}
+	}
+	
+	/* Mobile Landscape to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		article img {
+		float: none;
+		}
+		
+		#learn {
+			margin: 0 auto;
+		}
+		
+		article .button {
+			padding: 0 auto;
+		}
+
+		body {
+		color: green;
+		}
+	}
+	
+	/* Mobile Portrait to Mobile Landscape (devices and browsers) */
+	@media only screen and (max-width: 479px) {		
+		header ul {
+			display: none;
+		}
+		
+		article img {
+			display: none;
+		}
+		
+		#learn {
+			margin: 0 auto;
+		}
+				
+		aside p {
+			margin: 0 2.0833333% 25px 2.0833333%; /* 0 20px 25px 20px */
+		}	
+			
+		body {
+		color: orange;
+		}
+	}
