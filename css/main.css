@@ -248,10 +248,7 @@ footer p {
 
 	/* Tablet Portrait to Standard 960 (devices and browsers) */
 	@media screen and (min-width: 768px) and (max-width: 959px) {
-		#learn {
-			margin: 25px auto;
-			padding: 0 auto;
-		}		
+
 		
 		body {
 		color: purple;
