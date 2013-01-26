@@ -171,7 +171,7 @@ section {
 }
 
 .gallery {
-	width: 52.083333% /* 500px of 960 */
+	max-width: 52.083333% /* 500px of 960 */
 }
 
 .gallery h2 {
@@ -248,15 +248,33 @@ footer p {
 
 	/* Tablet Portrait to Standard 960 (devices and browsers) */
 	@media screen and (min-width: 768px) and (max-width: 959px) {
-
+		body p {
+			font-size: 1.2em;
+		}
 		
-		body {
-		color: purple;
+		h1, h2, h3, h4, h5, h6 {
+			font-size: 2em;
+		}
+		
+		.lore {
+			-ms-column-count: 2;
+			-moz-column-count: 2;
+			-webkit-column-count: 2;
+			-o-column-count: 2;
+			column-count: 2;
 		}
 	}
 	
 	/* Mobile Landscape to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		body p {
+			font-size: 1.2em;
+		}
+		
+		h1, h2, h3, h4, h5, h6 {
+			font-size: 2em;
+		}
+
 		header ul {
 			display: none;
 		}
@@ -276,7 +294,15 @@ footer p {
 		}
 				
 		.gallery {
-			max-width: 28.683181% /* 220px of 767 */
+			max-width: 35%
+		}
+		
+		.gallery ul li {
+			margin: 0 7% 25px 0;
+		}
+		
+		.gallery ul li a {
+			border: 2px groove #fc0;
 		}
 		
 		aside p {
@@ -284,21 +310,24 @@ footer p {
 		}		
 		
 		.lore {
-			margin: 0 2.0833333% 25px 2.0833333%; /* 0 20px 25px 20px */
 			-ms-column-count: 1;
 			-moz-column-count: 1;
 			-webkit-column-count: 1;
 			-o-column-count: 1;
 			column-count: 1;
 		}		
-		
-		body {
-		color: green;
-		}
 	}
 	
 	/* Mobile Portrait to Mobile Landscape (devices and browsers) */
 	@media only screen and (max-width: 479px) {		
+		body p {
+			font-size: 1.2em;
+		}
+		
+		h1, h2, h3, h4, h5, h6 {
+			font-size: 2em;
+		}
+		
 		header ul {
 			display: none;
 		}
@@ -315,14 +344,17 @@ footer p {
 			float: none;
 			width: 100%; /* 420px */
 			margin: 0 2.0833333% 25px 2.0833333%; /* 0 20px 25px 20px */
-		}		
+		}
+		
+		.gallery ul li a {
+			border: 2px groove #fc0;
+		}				
 						
 		aside p {
 			margin-bottom: 10px;
 		}
 				
 		.lore {
-			margin: 0 2.0833333% 25px 2.0833333%; /* 0 20px 25px 20px */
 			-ms-column-count: 1;
 			-moz-column-count: 1;
 			-webkit-column-count: 1;
