@@ -82,7 +82,7 @@ header ul li a:hover {
 	line-height: 40px;
 	text-align: center;
 	color: #fc1;
-	background: rgba(255, 205, 15, .25);
+	background: rgba(255, 255, 255, .15);
 	border-right: 2px ridge #fc1;
 	border-bottom: 2px ridge #fc1;
 	border-left: 2px ridge #fc1;
