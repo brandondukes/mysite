@@ -274,21 +274,65 @@ aside p {
 	width: 100%; /* 960px */
 	color: #fff;
 	background: rgba(95, 75, 15, .75) url(../images/paper1.png) no-repeat;
-	border-top: 3px ridge #c0974e;
+	border-top: 3px groove #c0974e;
 	overflow: hidden;
 }
 
 /*--------------------Table--------------------*/
 #clubfacts {
 	float: left;
-	width: 50%; /* 480px */
-	
+	width: 47.916667%; /* 460px */
+	margin: 0 0 25px 2.0833333%; /* 0 0 25px 20px */
+}
+
+#clubfacts h2 {
+	margin: 1.0416667%; /* 10px */
+	text-shadow: 2px 2px 2px #333;
+}
+
+#clubfacts table {
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#clubfacts th {
+	background: rgba(100, 35, 15, 1);
+	padding: 0.6em;
+	font-weight: bold;
+}
+
+#clubfacts td {
+	background: #e0d9ba;
+	padding: 0.6em;
+	font-weight: bold;
+	text-shadow: 1px 1px 10px #333;
+}
+
+#clubfacts .freeheading {
+	border-top-left-radius: 20px;
+}
+
+#clubfacts .paidheading {
+	border-top-right-radius: 20px;
+}
+
+#clubfacts .freedetail {
+	border-bottom-left-radius: 20px;
+}
+
+#clubfacts .paiddetail {
+	border-bottom-right-radius: 20px;
 }
 
 /*--------------------Form--------------------*/
 #form {
 	float: right;
-	width: 50%; /* 480px */
+	width: 47.916667%; /* 460px */
+}
+
+#form h2 {
+	margin: 1.0416667%; /* 10px */
+	text-shadow: 2px 2px 2px #333;
 }
 
 /*--------------------Footer--------------------*/
@@ -346,11 +390,7 @@ footer p {
 			float: left;
 			width: 90%;
 		}
-		
-		#cta .button {
-			max-width: 1%; /* 290px of 767 */
-		}
-				
+						
 		.gallery {
 			max-width: 35%
 		}
