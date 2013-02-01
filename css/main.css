@@ -171,13 +171,13 @@ section {
 }
 
 .gallery {
-	max-width: 52.083333% /* 500px of 960 */
+	max-width: 52.083333%; /* 500px of 960 */
 	margin: 1.0416667%; /* 10px */
 }
 
 .gallery h2 {
-	margin: 1.0416667%; /* 10px */
 	text-shadow: 2px 2px 2px #999;
+	margin: 1.0416667% 0; /* 10px 0 */
 }
 
 .gallery h2 a:visited {
@@ -195,7 +195,7 @@ section {
 .gallery ul {
 	clear: both;
 	list-style-type: none;
-	margin: 10px 0 25px 2.0833333%; /* 10px 0 25px 20px */
+	margin: 0 0 25px 2.0833333%; /* 10px 0 25px 20px */
 	padding: 0;
 	line-height: 0;
 }
@@ -398,7 +398,7 @@ footer p {
 		h1, h2, h3, h4, h5, h6 {
 			font-size: 2em;
 		}
-		
+				
 		.lore {
 			-ms-column-count: 2;
 			-moz-column-count: 2;
