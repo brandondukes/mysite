@@ -179,6 +179,18 @@ section {
 	text-shadow: 2px 2px 2px #999;
 }
 
+.gallery h2 a:visited {
+	color: #000;
+}
+
+.gallery h2 a:hover {
+	color: #000;	
+}
+
+.gallery h2 a:active {
+	color: #000;	
+}
+
 .gallery ul {
 	clear: both;
 	list-style-type: none;
@@ -198,18 +210,6 @@ section {
 	border: 3px groove #fc0;
 }
 
-.gallery a:visited {
-	color: #000;
-}
-
-.gallery a:hover {
-	color: #000;	
-}
-
-.gallery a:active {
-	color: #000;	
-}
-
 /*--------------------Role--------------------*/
 .role h2 {
 	clear: both;
@@ -217,20 +217,20 @@ section {
 	text-shadow: 2px 2px 2px #999;
 }
 
-.role p {
-	margin: 0 2.0833333% 25px 2.0833333%; /* 0 20px 25px 20px */
-}
-
-.role a:visited {
+.role h2 a:visited {
 	color: #000;
 }
 
-.role a:hover {
+.role h2 a:hover {
 	color: #000;	
 }
 
-.role a:active {
+.role h2 a:active {
 	color: #000;	
+}
+
+.role p {
+	margin: 0 2.0833333% 25px 2.0833333%; /* 0 20px 25px 20px */
 }
 
 /*--------------------Lore--------------------*/
@@ -239,15 +239,15 @@ aside h2 {
 	text-shadow: 2px 2px 2px #999;
 }
 
-aside a:visited {
+aside h2 a:visited {
 	color: #000;
 }
 
-aside a:hover {
+aside h2 a:hover {
 	color: #000;	
 }
 
-aside a:active {
+aside h2 a:active {
 	color: #000;	
 }
 
@@ -333,6 +333,14 @@ aside p {
 #form h2 {
 	margin: 1.0416667%; /* 10px */
 	text-shadow: 2px 2px 2px #333;
+}
+
+#form form {
+	background: #e0d9ba;
+}
+
+#form input:focus {
+	background: yellow;
 }
 
 /*--------------------Footer--------------------*/
