@@ -170,18 +170,6 @@ section {
 	overflow: hidden;
 }
 
-.gallery a:visited {
-	color: #000;
-}
-
-.gallery a:hover {
-	color: #000;	
-}
-
-.gallery a:active {
-	color: #000;	
-}
-
 .gallery {
 	max-width: 52.083333% /* 500px of 960 */
 }
@@ -210,7 +198,29 @@ section {
 	border: 3px groove #fc0;
 }
 
+.gallery a:visited {
+	color: #000;
+}
+
+.gallery a:hover {
+	color: #000;	
+}
+
+.gallery a:active {
+	color: #000;	
+}
+
 /*--------------------Role--------------------*/
+.role h2 {
+	clear: both;
+	margin: 1.0416667%; /* 10px */
+	text-shadow: 2px 2px 2px #999;
+}
+
+.role p {
+	margin: 0 2.0833333% 25px 2.0833333%; /* 0 20px 25px 20px */
+}
+
 .role a:visited {
 	color: #000;
 }
@@ -223,17 +233,12 @@ section {
 	color: #000;	
 }
 
-.role h2 {
-	clear: both;
+/*--------------------Lore--------------------*/
+aside h2 {
 	margin: 1.0416667%; /* 10px */
 	text-shadow: 2px 2px 2px #999;
 }
 
-.role p {
-	margin: 0 2.0833333% 25px 2.0833333%; /* 0 20px 25px 20px */
-}
-
-/*--------------------Lore--------------------*/
 aside a:visited {
 	color: #000;
 }
@@ -244,11 +249,6 @@ aside a:hover {
 
 aside a:active {
 	color: #000;	
-}
-
-aside h2 {
-	margin: 1.0416667%; /* 10px */
-	text-shadow: 2px 2px 2px #999;
 }
 
 aside p {
@@ -268,6 +268,7 @@ aside p {
 	column-count: 3;
 	column-gap: 50px;
 }
+
 /*--------------------Membership--------------------*/
 #membership {
 	width: 100%; /* 960px */
