@@ -172,6 +172,7 @@ section {
 
 .gallery {
 	max-width: 52.083333% /* 500px of 960 */
+	margin: 1.0416667%; /* 10px */
 }
 
 .gallery h2 {
@@ -282,7 +283,7 @@ aside p {
 #clubfacts {
 	float: left;
 	width: 47.916667%; /* 460px */
-	margin: 0 0 25px 2.0833333%; /* 0 0 25px 20px */
+	margin: 0 0 25px 1.0416667%; /* 0 0 25px 10px */
 }
 
 #clubfacts h2 {
@@ -293,6 +294,7 @@ aside p {
 #clubfacts table {
 	border-collapse: collapse;
 	text-align: center;
+	margin: 2.173913%; /* 10px of 460 */
 }
 
 #clubfacts th {
@@ -340,6 +342,7 @@ aside p {
 	background: #e0d9ba;
 	padding: 0.8em;
 	border-radius: 20px;
+	margin: 2.173913%; /* 10px of 460 */
 	overflow: hidden;
 }
 
