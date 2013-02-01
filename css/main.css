@@ -132,7 +132,7 @@ article p {
 }
 
 #cta a {
-	font: 1.750em/1.5 Arial, Helvetica, sans-serif;
+	font: 1.5em/1.5 Arial, Helvetica, sans-serif;
 }
 
 #cta .button {
@@ -170,6 +170,18 @@ section {
 	overflow: hidden;
 }
 
+.gallery a:visited {
+	color: #000;
+}
+
+.gallery a:hover {
+	color: #000;	
+}
+
+.gallery a:active {
+	color: #000;	
+}
+
 .gallery {
 	max-width: 52.083333% /* 500px of 960 */
 }
@@ -199,6 +211,18 @@ section {
 }
 
 /*--------------------Role--------------------*/
+.role a:visited {
+	color: #000;
+}
+
+.role a:hover {
+	color: #000;	
+}
+
+.role a:active {
+	color: #000;	
+}
+
 .role h2 {
 	clear: both;
 	margin: 1.0416667%; /* 10px */
@@ -210,6 +234,18 @@ section {
 }
 
 /*--------------------Lore--------------------*/
+aside a:visited {
+	color: #000;
+}
+
+aside a:hover {
+	color: #000;	
+}
+
+aside a:active {
+	color: #000;	
+}
+
 aside h2 {
 	margin: 1.0416667%; /* 10px */
 	text-shadow: 2px 2px 2px #999;
@@ -232,9 +268,31 @@ aside p {
 	column-count: 3;
 	column-gap: 50px;
 }
+/*--------------------Membership--------------------*/
+#membership {
+	width: 100%; /* 960px */
+	color: #fff;
+	background: rgba(95, 75, 15, .75) url(../images/paper1.png) no-repeat;
+	border-top: 3px ridge #c0974e;
+	overflow: hidden;
+}
+
+/*--------------------Table--------------------*/
+#clubfacts {
+	float: left;
+	width: 50%; /* 480px */
+	
+}
+
+/*--------------------Form--------------------*/
+#form {
+	float: right;
+	width: 50%; /* 480px */
+}
 
 /*--------------------Footer--------------------*/
 footer {
+	clear: both;
 	background: rgba(100, 35, 15, 1);
 	border-top: 3px ridge #c0974e;
 	overflow: hidden;
