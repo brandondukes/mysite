@@ -407,9 +407,6 @@ footer p {
 			column-count: 2;
 		}
 
-		#clubfacts {
-			width: 40%;
-		}
 	}
 	
 	/* Mobile Landscape to Tablet Portrait (devices and browsers) */
@@ -461,6 +458,7 @@ footer p {
 
 		#clubfacts {
 			width: 90%;
+			margin: 0 2.0833333% 25px 0; /* 0 20px 25px 0 */
 		}
 		
 		#clubfacts table {
@@ -470,7 +468,7 @@ footer p {
 		#form {
 			float: left;
 			width: 90%;
-			margin: 0 0 25px 2.0833333%; /* 0 0 25px 20px */
+			margin: 0 2.0833333% 25px 0; /* 0 20px 25px 0 */
 		}
 		
 		#form form {
@@ -498,7 +496,6 @@ footer p {
 		
 		article img {
 			display: none;
-			margin: 0 2.0833333% 25px 2.0833333%; /* 0 20px 25px 20px */
 		}
 		
 		#cta {
@@ -528,6 +525,7 @@ footer p {
 		
 		#clubfacts {
 			width: 90%;
+			margin: 0 2.0833333% 25px 0; /* 0 20px 25px 0 */
 		}
 		
 		#clubfacts table {
@@ -537,7 +535,7 @@ footer p {
 		#form {
 			float: left;
 			width: 90%;
-			margin: 0 0 25px 2.0833333%; /* 0 0 25px 20px */
+			margin: 0 2.0833333% 25px 0; /* 0 20px 25px 0 */
 		}
 		
 		#form form {
