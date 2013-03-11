@@ -1,3 +1,7 @@
+html {
+	background: #e0d9ba url(../images/paper1.png);
+}
+
 /*--------------------Fonts--------------------*/
 body {
 	font: 100%/1.5 Arial, Helvetica, sans-serif;
@@ -478,6 +482,10 @@ footer p {
 	
 	/* Mobile Portrait to Mobile Landscape (devices and browsers) */
 	@media only screen and (max-width: 479px) {		
+		html {
+			background: FFFFFF;
+		}
+		
 		body p {
 			font-size: 1.2em;
 		}
@@ -491,7 +499,7 @@ footer p {
 		}
 		
 		article {
-			background: rgba(95, 75, 15, .65);
+			background: rgba(95, 75, 15, .45);
 		}
 		
 		article img {
@@ -520,7 +528,7 @@ footer p {
 		}
 		
 		#membership {
-			background: rgba(95, 75, 15, .65);
+			background: rgba(95, 75, 15, .45);
 		}
 		
 		#clubfacts {
